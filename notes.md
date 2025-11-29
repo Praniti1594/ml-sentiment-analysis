@@ -153,6 +153,7 @@ The solver decides how Logistic Regression updates its weights during training.
 Different solvers work better for different types of data.
 
 ✔ Common Solver Options
+
 Solver : What it does. 	When to use it
 
 liblinear: 	Uses coordinate descent. Supports L1 & L2.	Small datasets. Binary classification. Feature selection (L1).
