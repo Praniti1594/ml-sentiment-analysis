@@ -153,8 +153,11 @@ The solver decides how Logistic Regression updates its weights during training.
 Different solvers work better for different types of data.
 
 ✔ Common Solver Options
-Solver	What it does	When to use it
-liblinear	Uses coordinate descent. Supports L1 & L2.	Small datasets. Binary classification. Feature selection (L1).
-lbfgs	Uses quasi-Newton optimization. Only L2 penalty.	Large datasets. Fast and stable. Best for most text tasks.
-saga	Stochastic gradient with variance reduction. Supports L1 & L2.	Very large + sparse datasets (like TF-IDF). Best for high-dimensional text.
+Solver : What it does. 	When to use it
+
+liblinear: 	Uses coordinate descent. Supports L1 & L2.	Small datasets. Binary classification. Feature selection (L1).
+
+lbfgs: 	Uses quasi-Newton optimization. Only L2 penalty.	Large datasets. Fast and stable. Best for most text tasks.
+
+saga: Stochastic gradient with variance reduction. Supports L1 & L2.	Very large + sparse datasets (like TF-IDF). Best for high-dimensional text.
 
